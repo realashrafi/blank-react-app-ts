@@ -6,6 +6,8 @@ import NotFound from "./pages/NotFound";
 import AuthClassicLayout from "./provider/AuthProvider";
 import Main from "./pages/Main";
 import MainLayout from "./provider/MainProvider";
+import RegisterPage from "./pages/RegisterPage";
+import ForgotPassword from "./pages/ForgotPassword";
 
 function App() {
     return (
@@ -22,6 +24,8 @@ function App() {
                             <Main/>
                         </MainLayout>
                     }/>
+                    <Route path="/register" element={<RegisterPage/>}/>
+                    <Route path="/forgot-password" element={<ForgotPassword/>}/>
                     <Route path="/*" element={<NotFound/>}/>
                 </Routes>
             </Router>
