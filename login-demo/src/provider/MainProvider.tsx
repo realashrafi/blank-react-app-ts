@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Container, CssBaseline, Toolbar, Typography, Button, IconButton, Stack, Box, Avatar, Badge } from '@mui/material';
+import { AppBar, Container, CssBaseline, Toolbar, Typography, Button, IconButton, Stack, Avatar, Badge } from '@mui/material';
 import { Notifications, Menu as MenuIcon } from '@mui/icons-material';
 
 const MainLayout = ({ children }:any) => {
